@@ -1,0 +1,35 @@
+fill(255,0,0)
+stroke(255,0,0)
+
+rect(200,200,10,20)
+
+var x=1
+
+while(x<20){
+stroke(0,0,200);
+  strokeWeight(0.2)
+  line(0,random(100),random(width),0)
+  line(random(width),0,width,random(100))
+x=x+1
+}
+
+while(x<25){
+
+stroke(0,0,200);
+   strokeWeight(0.2)
+  line(205,210,random(width),0)
+  fill(255,0,0)
+  stroke(255,0,0)
+  rect(200,200,10,20)
+  x=x+1
+}
+
+while(x<30){
+stroke(0,0,200);
+   strokeWeight(0.2)
+  line(0,random(width),width,random(width))
+ fill(255,0,0)
+  stroke(255,0,0)
+  rect(200,200,10,20)
+  x=x+1 
+}
