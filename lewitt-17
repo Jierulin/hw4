@@ -1,0 +1,50 @@
+//diaganal
+background(255);
+
+
+for(var x=0,y=0;x<=280;x=x+10,y=y+20){
+stroke(0)
+strokeWeight(0.5)
+line(x,0,0,y)
+}
+
+
+
+
+//clear out
+fill(255);
+stroke(255);
+strokeWeight(0.5)
+rect(width/4,0,width,width)
+
+
+//-
+for(var b=0;b<=width;b=b+10 ){
+stroke(0)
+  strokeWeight(0.5);
+line(width/4+30,b,width,b)
+//clear out
+
+}
+fill(255)
+stroke(255)
+rect(width*0.6,0,width,width)
+
+//\
+for(var a=width,c=width*0.6+30;c<=684;a=a-10,c=c+10){
+    stroke(0)
+    strokeWeight(0.5);
+line(width*0.6+30,a,c,width)
+     }
+
+
+    
+fill(255);
+stroke(0);
+strokeWeight(0.5)
+rect(width/4,0,30,width);
+
+fill(255)
+stroke(0);
+strokeWeight(0.5)
+rect(width*0.6,0,30,width)
