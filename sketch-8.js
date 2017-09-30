@@ -1,0 +1,10 @@
+background(0)
+ellipseMode(CENTER)
+for(x=13.2;x<=326.8;x=x+10.4){
+  fill(255);
+ellipse(x,13.2,7.2,7.2)
+ for(b=13.2;b<326.8;b=b+10.4){
+  fill(255)
+   ellipse(x,b,7.2,7.2)
+ }
+}
